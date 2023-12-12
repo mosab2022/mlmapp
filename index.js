@@ -5,7 +5,7 @@ var cors = require('cors')
 
 const app = express()
 
-const port =8000
+const port =3000
 const DB ="mongodb+srv://mlm:Myagag4936!!@cluster0.pgihray.mongodb.net/?retryWrites=true&w=majority";
 app.get("/", function (req, res) {
   res.json( { hi :  "Hello World"})
